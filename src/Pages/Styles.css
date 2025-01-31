@@ -1,0 +1,198 @@
+/* HOME PAGE CSS START */
+
+.hero {
+    background: url(/src/assets/Background_Hero.png);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 704px;
+    background-position: center;
+    background-size: cover;
+}
+
+button.Btn {
+    background-color: #0095DF;
+    outline: 0;
+    border: 0;
+    padding: 13px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.leftSide {
+    margin: 0 90px 0 200px;
+}
+
+.leftSide h1 {
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.leftSide p {
+    color: white;
+    margin: 0 0 20px;
+}
+
+.leftSide button.Btn {
+    color: white;
+    margin: 0 30px 0 0;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+.About {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.imgAbout {flex-basis: 50%;}
+
+.imgAbout img {
+    width: 100%;
+}
+
+.imgText {
+    flex-basis: 50%;
+    margin: 0 0 0 50px;
+}
+
+.imgText h4 {
+    color: #0095df;
+}
+
+.imgText h2 {
+    margin: 10px 0;
+}
+
+Button.btn{
+    background-color: #0095DF;
+    outline: 0;
+    border: 0;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.icons .icon{
+    margin: 0 20px;
+}
+
+.icon img{
+    margin-bottom: 10px;
+
+}
+
+.icon .btn1{
+    margin: 15px 0 0 0;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #0095DF;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.video {
+    background-image: url(/src/assets/Video_BckGrnd.png);
+    background-size: 100% 100%;
+    background-position: center;
+    margin: 100px 0 0 0;
+    padding: 200px 0;
+}
+
+.playIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.courses {
+    margin: 100px 0px 0;
+}
+
+.courses .topSec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.allCourse {
+    margin: 50px 0 0;
+    display: flex;
+}
+
+.c1 {
+    margin: 0 10px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+    border-radius: 24px;
+    padding: 20px;
+}
+
+.c1 img {
+    margin: 0 0 20px;
+    width: 100%;
+}
+
+.c1 h3 {
+    color: #0095df;
+    margin: 0 0 10px;
+}
+
+p.time {
+    margin: 30px 0 0;
+    font-size: 15px;
+}
+
+.dnt{
+    background-image: url(../assets/Testimonial_bg.png);
+    margin: 100px 0 0 0;
+    color: white;
+    padding: 70px 0;
+    background-size: cover;
+}
+
+.donate{
+    display: flex;
+    align-items: center;
+}
+
+.dntText{
+    margin: 0 30px 0 0px;
+}
+
+.dntImg{
+    width: 100%;
+}
+
+.dntText .btn{
+    margin: 20px 0 0 0;
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.dntText p{
+    margin: 20px 0 0 0;
+}
+/* HOME PAGE CSS END */
