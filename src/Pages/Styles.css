@@ -131,7 +131,9 @@ Button.btn{
 .courses {
     margin: 100px 0px 0;
 }
-
+.courses h4{
+    color: #0095DF;
+}
 .courses .topSec {
     display: flex;
     align-items: center;
